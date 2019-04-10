@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href= "css/bootstrap.css" rel=stylesheet type="text/css">
+    <link href= "css/styles.css" rel=stylesheet type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>TIC TAC TOC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Tic Tac Toc Game ! <h1>
+      </div>
+    </div>
+      <h3>Choose your Figure :</h3>
+      <form>
+      <input id="x" type="image" src="img/cross.png" value="X" onclick=alert("You Choose the Cross !")width="200" height="100" />
+      <input id="o" type="image" src="img/circle.png" value="O" onclick=alert("You Choose the Cross !")width="200" height="100" />
+      </form>
+
+      </div>
+      <hr>
+      <div id="clickGame">
+        <section class="container">
+          <p> </p>
+            <div class-="tg-wrap">
+              <table>
+                <tr>
+                  <th><span id="corner1">1</span></th>
+                  <th><span id="side2"> 2</span></th>
+                  <th><span id="corner3"> 3</span></th>
+                </tr>
+                <tr>
+                  <td><span id="side4"></span></td>
+                  <td><span id="center5"></span></td>
+                  <td><span id="side6"></span></td>
+                </tr>
+                <tr>
+                  <td><span id="corner7"></span></td>
+                  <td><span id="side8"></span></td>
+                  <td><span id="corner9"></span></td>
+                </tr>
+              </table>
+            </div>
+            <div class="score">
+              <h1>Score</h1>
+              <p>Joueur 1 (croix) : XX</p>
+              <p>Joueur 2 (rond) : XX</p>
+              <p>Match nul : XX</p>
+            </div>
+            <button class= "btn btn-danger"onclick="location.reload();">Refresh Page</button>
+        </section>
+      </div>
+      </hr>
+      <div class="boxmodel-2">
+        <div class="container">
+          <div clas="row">
+            <div class="col-md-12">
+            <p><a href="#help.html"> Help</a><p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

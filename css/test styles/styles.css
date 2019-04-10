@@ -1,0 +1,52 @@
+body {
+font-family: 'Lato', sans-serif;
+margin:0;
+}
+
+.container {
+  max-width: 1140px; /*maximum size for the container*/
+  margin: auto;
+  margin-top: 4.5em;
+}
+
+.container>p{
+  text-align: center;
+  margin-bottom: 3em;
+  color: violet;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.tg-wrap {
+  display: inline-block; /*Align elements*/
+  width: 65%; /*Define the size od the div depends to the section container*/
+}
+
+.tg-wrap>table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0px auto;
+  width: 100%; /*Define the width of the table*/
+  height: 100%; /*Define the height of the table*/
+}
+
+.tg-wrap table tr td {
+  border: 2px solid blue; /*Bordures des cases*/
+  overflow: hidden;
+  width: 247px;
+  height: 247px;
+}
+
+.tg-wrap table tr th {
+  border: 2px solid red; /*Bordures des cases*/
+  overflow: hidden;
+  word-break: normal;
+  width: 247px;
+  height: 247px;
+}
+
+.tg-wrap table tr td a{
+display: block;
+width: 100%;
+height: 100%;
+}

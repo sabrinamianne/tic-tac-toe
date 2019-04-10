@@ -1,0 +1,87 @@
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+
+table, tr, td {
+  border: 5px solid black;
+  overflow: hidden;
+  width: 500px;
+  height: 150px;
+  }
+
+table, tr, th {
+  border: 5px solid black;
+  overflow: hidden;
+  width: 500px;
+  height: 150px;
+}
+
+table tr td span {
+display: block;
+width: 100%;
+height: 100%;
+}
+td {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.container {
+  max-width: 2000px; /* maximum size for the container */
+
+  margin-top: 4.5em;
+}
+
+.jumbotron {
+  text-align: center;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+}
+
+form {
+text-align: center;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+body {
+  background-color: #dedfe0;
+}
+
+.boxmodel-2 {
+  font-size: 90px;
+  text-align: center;
+  background-color: black;
+  font-family: Times,inherit;
+}
+.boxmodel-2 a {
+  font-size: 40px;
+  font-family: Times,inherit;
+  color: white;
+}
+.boxmodel-2 a:hover{
+  color: violet ;
+  text-decoration: underline;
+}
+
+.score {
+  text-align: center;
+  margin-top: 30px;
+}
+.btn  {
+  margin-left: 47%;
+  margin-top: 30px;
+
+}
